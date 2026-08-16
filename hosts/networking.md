@@ -17,12 +17,14 @@ Example configuration concept:
 
 Following is the XML definition for the bridge device on KVM:
 
-<interface type="bridge">
-  <mac address="52:54:00:16:0b:60"/>
-  <source bridge="br0"/>
-  <model type="virtio"/>
-  <address type="pci" domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
-</interface>
+
+&lt;interface type=0"bridge"&gt;
+  &lt;mac address="52:54:00:16:0b:60"/&gt;
+  &lt;source bridge="br0"/&gt;
+  &lt;model type="virtio"/&gt;
+  &lt;address type="pci" domain="0x0000" bus="0x01" slot="0x00" function="0x0"/&gt;
+&lt;/interface&gt;
+
 
 
 

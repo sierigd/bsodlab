@@ -10,15 +10,7 @@ Hardware:
 Networking:
 - Intel I217-LM (Physical, onboard NIC)
 - br0 (bridge libvirt device)
-- libvirt configuration:
-<XML>
- <interface type="bridge">
-  <mac address="52:54:00:16:0b:60"/>
-  <source bridge="br0"/>
-  <model type="virtio"/>
-  <address type="pci" domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
- </interface>
-</XML>
+
 
 VMs:
 - Win10 
