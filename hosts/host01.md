@@ -18,6 +18,12 @@ VMs:
 	-vCPU: 1
 	-RAM: 4 GB
 	-Storage: 20 GB
+- SYNC01 (Entra Connect Sync VM)
+	-OS: Windows Server 2022
+	-vCPU: 2
+	-RAM: 4 GB
+	-Storage: 40 GB
+	
 
 
 Storage:
